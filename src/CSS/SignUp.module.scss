@@ -1,0 +1,111 @@
+.content-heading{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content-heading .baby-image{
+    width: 160px;
+}
+
+.contentBody, 
+.contentFooter{
+    width: 100%;
+    margin-top: 10px;
+    /* margin-left: 50px; */
+    /* margin-right: auto; */
+    
+}
+.contentHeader3{
+    h3{
+        margin-top: 60px;
+        margin-left: 80px;
+    }
+}
+.contentList{
+    margin-top: 25px;
+}
+
+.bodyItems{
+    width: calc(100%/5);
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.contentBody label{
+    width: 300px;
+}
+
+.contentBody input{
+    width: 275px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.contentFooter input{
+    width: 275px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.changePasswordContainer{
+    margin-top: 5px;
+}
+
+.changePassword{
+    display: table-header-group;
+    color: red;
+}
+
+.signUpBtn{
+    padding: 10px;
+    background-color: rgb(80, 171, 245);
+    border-radius: 8px;
+    border: black 1px solid;
+    width: 150px;
+    font-weight: 600;
+    display: block;
+    margin-top: 50px;
+    cursor: pointer;
+    margin-left: 46.5%;
+}
+
+.test{
+    width: 150px;
+    margin-left: auto;
+}
+.signUpBtn:hover{
+    opacity: 0.9;
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputWithIcon{
+    position: relative;
+}
+
+.allIcon{
+    position: absolute;
+    right: 0px;
+    font-size: 23px;
+    top: 6px;
+    cursor: pointer;
+}
+.allIcon:hover{
+    color: dodgerblue;
+}
+
+input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputWithIcon input:focus{
+    color: dodgerblue;
+}
+

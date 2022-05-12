@@ -1,0 +1,87 @@
+#header{
+    width: 100%;
+    font-weight: 600;
+    height: 46px;
+    background-color: #f8f8f8;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    box-sizing: initial;
+}
+.iconUl > li{
+    display: inline-block;
+}
+#logo{
+    height: 110px;
+    margin: 0;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+.titleLeft {
+    font-weight: 600;
+    position: absolute;
+    top: 29%;
+    left: 15%;
+}
+.titleRight {
+    font-weight: 600;
+    position: absolute;
+    top: 29%;
+    right: 15%;
+}
+
+.background{
+    position: relative;
+    background-color: #5fd2ff;
+}
+.center{
+    text-align: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+#nav, .subnav{
+    list-style-type: none; /*Bỏ dấu ở list*/
+}
+#nav > li{
+    display: inline-block;
+}
+#nav > li:hover .subnav{
+    display: block;
+    background-color: #f8f8f8;
+}
+#nav li{
+     /*Trên 1 hàng, giữ tính chất khối*/
+    position: relative;
+}
+#nav > li > a{ /*Thẻ con trực tiếp*/
+    color: #252525;
+}
+#nav li a{
+    display: block;
+    line-height: 46px; /*Tip căn giữa: phần bôi đen rộng = header*/
+    padding: 0 30px; /*Trên dưới 0px, Trái phải 30px*/
+}
+#nav > li:hover > a,
+#nav .subnav li:hover{ /*Nên để hover vào li để khi mở nav phụ thì nav chính vẫn được áp dụng*/
+    color: #f8f8f8;
+    background-color: #2b2b2b;
+    transition: all 0.3s;
+}
+#nav .subnav{
+    display: none;
+    position: absolute; /*Vị trí tương đối theo thẻ cha*/
+    top: 100%;
+    left: 0;
+    min-width: 440px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav .subnav a{
+    color: #252525;
+}
+#nav .subnav a:hover{
+    color: #f8f8f8;
+}

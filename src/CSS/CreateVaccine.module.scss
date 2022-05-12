@@ -1,0 +1,66 @@
+::placeholder {
+    color: rgb(164, 171, 182);
+    padding-left: 3px;
+  }
+
+.btnAccept{
+    margin-top: 30px;
+    float: right;
+    margin-right: 5%;
+    background-color: rgb(201, 201, 201);
+    border-radius: 8px;
+    width: 19%;
+    height: 35px;
+}
+
+.padding{
+    padding-top: 3px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+.inputForm{
+
+    border-radius: 10px;
+    border: solid white 1px;
+    line-height: 1.4375em;
+    width: 92%;
+    font-size: 0.9rem;
+    height: 38px;
+    background-color: #fff;
+    color: #000;
+    padding-left: 2%;
+}
+
+.title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.title2{
+    padding-left:40px;
+
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-bottom: 10%;
+}
+
+
+textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 8px;
+}
+
+.textinput {
+    float: left;
+    width: 93%;
+    min-height: 200px;
+    outline: none;
+    // resize: none;
+    padding-left: 2%;
+    font-size: 0.9rem;
+    line-height: 1.4375em;
+    color: #000;
+}

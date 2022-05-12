@@ -1,0 +1,43 @@
+.container{
+    color: #fff;
+    // position: absolute;
+    // width: 40%;
+    padding: 1% 10% 4% 10%;
+}
+.titleStyle{
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+}
+.ulStyle{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    // padding-left: 5%;
+    list-style: none;
+    text-align: left;
+    font-size: 20px;
+    li{
+        padding-bottom: 5px;
+        span{
+            padding-left: 5px;
+        }
+    }
+}
+.noteStyle{
+    // padding-left: 5%;
+    // padding-right: 8%;
+    text-align: justify;
+    font-size: 20px;
+    padding-bottom: 5px;
+    span{
+        padding-left: 5px;
+    }
+}
+
+.spanStyle{
+    color: rgb(255, 255, 255);
+    // font-weight: 500;
+    text-decoration: underline;
+}

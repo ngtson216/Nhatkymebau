@@ -1,0 +1,47 @@
+::placeholder {
+    color: rgb(197, 186, 186);
+    padding-left: 3px;
+  }
+  
+  .inputForm{
+      border-radius: 5px;
+      border: solid rgb(197, 186, 186) 1px;
+      line-height: 1.4375em;
+      width: 90%;
+      font-size: 0.9rem;
+      height: 55px;
+      background-color: rgb(255, 255, 255);
+      color: #000;
+      padding-left: 2%;
+  }
+  
+  textarea {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 8px;
+  }
+  
+  .textinput {
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    outline: none;
+    // resize: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .btnAccept{
+    margin-top: 30px;
+    float: right;
+    margin-right: 5%;
+    background-color: rgb(201, 201, 201);
+    border-radius: 8px;
+    width: 19%;
+    height: 35px;
+  }
+  

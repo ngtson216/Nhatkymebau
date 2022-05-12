@@ -1,0 +1,164 @@
+.btn{
+    background-color: rgba(255,255,255,0);
+    border: none;
+    line-height: 46px;
+}
+
+input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.inputWithIcon input:focus + .all-icon{
+    color: dodgerblue;
+}
+
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentSection{
+    width: 20%;
+}
+
+.contentHeader{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contentHeader .babyImage{
+    margin-top: 50px;
+    width: 160px;
+}
+
+.contentBody .userName{
+    margin-top: 20px;
+}
+
+.contentBody label{
+    font-size: 16px;
+    display: block;
+    padding: 5px 5px 5px 0px;
+    margin-top: 10px;
+}
+
+.contentBody input{
+    padding: 10px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.inputWithIcon{
+    position: relative;
+}
+
+
+.contentBody .password .eyeIcon{
+    position: absolute;
+    right: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.contentBody .userName p{
+    font-size: 13px;
+    color: red;
+    padding: 5px 10px 0px 0px;
+
+}
+
+.contentBody .password > a{
+    display: block;
+    font-size: 12px;
+    padding: 5px 10px 10px 0px;
+    color: red;
+}
+
+.contentBody .signInBtn{
+    padding: 6px 4px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(80, 171, 245);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.contentBody .signInBtn:hover{
+    opacity: 0.9;
+}
+
+.contentBody .password > p{
+    float: right;
+    padding: 10px;
+}
+
+.password > p > a{
+    color: rgb(4, 138, 179);
+    font-weight: 600;
+}
+
+.modal.open{
+    display: flex;
+}
+
+.modal{
+    position: fixed;    
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modalContainer{
+    background-color: white;
+    width: 20%;
+    border-radius: 15px;
+    animation: notificationPopUp ease 0.7s;
+}
+
+.modalHeader{
+    padding: 15px;
+    color: rgb(214, 4, 4);
+    font-size: 28px;
+}
+
+.modalContent{
+    padding: 15px;
+    line-height: 1.4;
+}
+
+.btnClose{
+    padding: 5px;
+    float: right;
+    margin-bottom: 5px;
+    border: none;
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.modalClose:hover{
+    opacity: 0.8;
+}
+
+@keyframes notificationPopUp {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* SignUp */

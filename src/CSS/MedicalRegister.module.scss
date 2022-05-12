@@ -1,0 +1,81 @@
+.contentBody, 
+.contentFooter{
+   padding-left: 43%;
+}
+.contentHeader{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contentHeader .babyImage{
+    margin-top: 0px;
+    width: 160px;
+}
+.contentBody1{
+    padding-left: 43%;
+    label{
+        width: 300px;
+    }    
+    input {
+        width: 260px;
+        display: block;
+        padding: 8px;
+        border-radius: 8px;
+        margin-top: 5px;
+        outline: none;
+    }
+}
+.contentList{
+    padding-top: 30px;
+}
+
+.bodyItems{
+    width: calc(100%/3);
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.contentBody label{
+    width: 300px;
+}
+
+.contentBody input{
+    width: 275px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 5px;
+    outline: none;
+}
+
+.contentFooter input{
+    width: 275px;
+    display: block;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 5px;
+    outline: none;
+    height: 100px;
+    
+}
+
+.signUpBtn{
+    background-color: rgb(80, 171, 245);
+    border-radius: 8px;
+    border: black 1px solid;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;  
+}
+
+.signUpBtn:hover{
+    opacity: 0.9;
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.divBtn {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

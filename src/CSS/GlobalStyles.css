@@ -1,0 +1,15 @@
+/* CSS cho cả website */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+
