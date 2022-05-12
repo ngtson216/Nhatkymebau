@@ -1,5 +1,4 @@
-# Link Demo1: http://nhatkymebau.vn:3000/
-# Link Demo2:
+# Link Demo: http://nhatkymebau.vn:3000/
 
 # Getting Started with Create React App
 
