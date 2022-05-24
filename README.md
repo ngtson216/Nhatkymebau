@@ -1,4 +1,5 @@
-# Project by AniGang from ĐH Thăng Long - Developing a system management about pregnant
+# Developing a system management about pregnant
+# Project by AniGang from ĐH Thăng Long
 
 # Link Demo: http://nhatkymebau.vn:3000/
 
