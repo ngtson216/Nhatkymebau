@@ -1,3 +1,5 @@
+# Project by AniGang from ĐH Thăng Long - Developing a system management about pregnant
+
 # Link Demo: http://nhatkymebau.vn:3000/
 
 # Getting Started with Create React App
